@@ -1,0 +1,41 @@
+.header{
+    position: sticky;
+    margin: 0px 10px;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 47px;
+}
+.formImage ,.avatarImage{
+    width: 35px;
+    height:40px;
+}
+.header_info, .header_right{
+    display: flex;
+    align-items: center;
+}
+.info{
+    color:#5f6368;
+    font-size: 22px;
+    padding-left:5px ;
+}
+
+.header_search{
+    display: flex;
+    align-items: center;
+    background-color: rgb(248, 246, 246);
+    width: 700px;
+    height: 45px;
+    border-radius: 5px;
+    color: -internal-light-dark(black,white)
+}
+.header_search >input{
+    border: none;
+    height: 40px;
+    background-color: transparent;
+    outline:none;
+    width: 100%;
+}
